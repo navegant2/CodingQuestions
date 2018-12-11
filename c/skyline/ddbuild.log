@@ -1,0 +1,31 @@
+22/06/18 08:15:30: ===============================================================================
+                   /auto/tools/bin/ddbuild ddos:vso-all -c 596032
+22/06/18 08:15:30: STDOUT:
+                          
+                          Warning:  Using multiple changes in a single client is not a recommended
+                                    practice.  The -change option should only be used when directed by
+                                    release engineering.
+22/06/18 08:15:31: /auto/tools/bin/p4 -u gantan -p perforce.datadomain.com:1666 -ztag -c ayachp:arch info 2>&1
+                   ... brokerAddress re-dur-perforce-broker-1.datadomain.com:1666
+                   ... brokerVersion P4BROKER/LINUX26X86_64/2015.1/1441375
+                   ... userName gantan
+                   ... clientName ayachp:arch
+                   ... clientRoot /auto/home12/anguyen
+                   ... clientCwd /auto/home12/gantan/c/skyline
+                   ... clientHost gantan-d1
+                   ... peerAddress 10.98.112.69:34808
+                   ... clientAddress 10.203.5.111
+                   ... monitor enabled
+                   ... security enabled
+                   ... externalAuth enabled
+                   ... serverAddress dur-p4replica2.datadomain.com:1666
+                   ... serverRoot /p4/1/root
+                   ... serverDate 2018/06/22 18:17:41 -0400 EDT
+                   ... serverUptime 159:17:38
+                   ... serverVersion P4D/LINUX26X86_64/2012.2/756218 (2013/12/09)
+                   ... serverEncryption encrypted
+                   ... serverCertExpires Feb 28 19:25:39 2019 GMT
+                   ... serverLicense EMC Corporation 805 users (support ends 2019/04/12) 
+                   ... serverLicense-ip 10.98.113.50:1666
+                   ... caseHandling sensitive
+                   ... integEngine 2

@@ -1,0 +1,110 @@
+------------------------------- 
+Word: abcd
+IsPalindrome ? Word: abcd
+##################
+IsPalindrome ? Word: bcd
+##################
+IsPalindrome ? Word: a
+Prefix Word: bcd
+Reverse Prefix Word: dcb
+IsPalindrome ? Word: cd
+##################
+IsPalindrome ? Word: ab
+IsPalindrome ? Word: d
+Suffix Word: abc
+Reverse Suffix Word: cba
+##################
+IsPalindrome ? Word: abc
+IsPalindrome ? Word: 
+Suffix Word: abcd
+Reverse Suffix Word: dcba
+##################
+IsPalindrome ? Word: abcd
+------------------------------- 
+Word: dcba
+IsPalindrome ? Word: dcba
+##################
+IsPalindrome ? Word: cba
+##################
+IsPalindrome ? Word: d
+Prefix Word: cba
+Reverse Prefix Word: abc
+IsPalindrome ? Word: ba
+##################
+IsPalindrome ? Word: dc
+IsPalindrome ? Word: a
+Suffix Word: dcb
+Reverse Suffix Word: bcd
+##################
+IsPalindrome ? Word: dcb
+IsPalindrome ? Word: 
+Suffix Word: dcba
+Reverse Suffix Word: abcd
+##################
+IsPalindrome ? Word: dcba
+------------------------------- 
+Word: lls
+IsPalindrome ? Word: lls
+##################
+IsPalindrome ? Word: ls
+##################
+IsPalindrome ? Word: l
+Prefix Word: ls
+Reverse Prefix Word: sl
+IsPalindrome ? Word: s
+Suffix Word: ll
+Reverse Suffix Word: ll
+##################
+IsPalindrome ? Word: ll
+Prefix Word: s
+Reverse Prefix Word: s
+IsPalindrome ? Word: 
+Suffix Word: lls
+Reverse Suffix Word: sll
+##################
+IsPalindrome ? Word: lls
+------------------------------- 
+Word: s
+IsPalindrome ? Word: s
+Suffix Word: 
+Reverse Suffix Word: 
+##################
+IsPalindrome ? Word: 
+Suffix Word: s
+Reverse Suffix Word: s
+##################
+IsPalindrome ? Word: s
+Prefix Word: 
+Reverse Prefix Word: 
+------------------------------- 
+Word: sssll
+IsPalindrome ? Word: sssll
+##################
+IsPalindrome ? Word: ssll
+##################
+IsPalindrome ? Word: s
+Prefix Word: ssll
+Reverse Prefix Word: llss
+IsPalindrome ? Word: sll
+##################
+IsPalindrome ? Word: ss
+Prefix Word: sll
+Reverse Prefix Word: lls
+IsPalindrome ? Word: ll
+Suffix Word: sss
+Reverse Suffix Word: sss
+##################
+IsPalindrome ? Word: sss
+Prefix Word: ll
+Reverse Prefix Word: ll
+IsPalindrome ? Word: l
+Suffix Word: sssl
+Reverse Suffix Word: lsss
+##################
+IsPalindrome ? Word: sssl
+IsPalindrome ? Word: 
+Suffix Word: sssll
+Reverse Suffix Word: llsss
+##################
+IsPalindrome ? Word: sssll
+[0,1] [1,0] [3,2] [2,4] 
